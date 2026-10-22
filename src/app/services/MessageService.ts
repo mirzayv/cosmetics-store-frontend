@@ -13,7 +13,6 @@ class MessageService {
     try {
       const url = `${this.path}/message/create`;
       const result = await axios.post(url, input);
-      console.log("createMessage:", result);
 
       return result.data;
     } catch (err) {

@@ -38,8 +38,6 @@ export default function ProcessOrders(props: ProcessOrdersProps) {
 
   /** HANDLERS **/
 
-  /** HANDLERS **/
-
   const finishOrderHandler = async (e: T) => {
     try {
       if (!authMember) throw new Error(Messages.error2);

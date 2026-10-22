@@ -22,8 +22,6 @@ const newProductsRetriever = createSelector(retrieveNewProducts, (newProducts) =
 export default function NewProducts() {
   const { newProducts } = useSelector(newProductsRetriever);
 
-  console.log("newProducts:", newProducts);
-
   return (
     <div className={"new-products-frame"}>
       <Container>
