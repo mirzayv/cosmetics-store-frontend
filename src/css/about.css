@@ -1,0 +1,50 @@
+.about-page {
+     display: flex;
+     width: 100%;
+     height: auto;
+     min-height: 60vh;
+     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px, #ffffff 260px), url('/public/img/banner.jpg');
+     background-position: center top;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+.about-page .about-container {
+     margin-top: 80px;
+     margin-bottom: 80px;
+}
+
+.about-page .about-box {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     max-width: 760px;
+     margin: 0 auto;
+     padding: 48px;
+     border: 1px solid var(--brand-lavender-deep, #e6defa);
+     border-radius: 12px;
+     background: #ffffff;
+     box-shadow: 0px 16px 32px rgba(20, 3, 66, 0.06);
+}
+
+.about-page .about-box .about-title {
+     margin-bottom: 20px;
+     font-family: "Playfair Display", Georgia, serif;
+     font-size: 32px;
+     font-weight: 600;
+     color: var(--brand-ink, #140342);
+}
+
+.about-page .about-box p {
+     margin: 0 0 16px 0;
+     font-family: "DM Sans", "Roboto", sans-serif;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 1.7;
+     color: var(--brand-muted, #4f547b);
+}
+
+.about-page .about-box p:last-child {
+     margin-bottom: 0;
+}
+

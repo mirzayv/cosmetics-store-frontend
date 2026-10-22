@@ -1,0 +1,263 @@
+.help-page {
+     display: flex;
+     width: 100%;
+     height: auto;
+     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px, #ffffff 260px), url('/public/img/banner.jpg');
+     background-position: center top;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+.help-page .help-container {
+     flex-direction: row;
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+
+.help-page .help-menu {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 100%;
+     height: 60px;
+     border-bottom: 1px solid #f8f8ff;
+}
+
+.help-page .help-menu .table-list {
+     display: flex;
+     justify-content: space-between;
+}
+
+.help-page .css-1gsv261 {
+     width: 75%;
+}
+
+.help-page .css-heg063-MuiTabs-flexContainer {
+     justify-content: space-between;
+}
+
+.help-page .css-19kzrtu {
+     padding-top: 24px;
+}
+
+.help-page .help-main-content {
+     width: 100%;
+     height: 1000px;
+}
+
+.help-page .rules-box {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: auto;
+     padding: 24px;
+     border: 1px solid var(--brand-lavender-deep, #e6defa);
+     border-radius: 12px;
+     background: #ffffff;
+     box-shadow: 0px 16px 32px rgba(20, 3, 66, 0.06);
+}
+
+.rules-box .rules-frame {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: 100%;
+}
+
+.rules-box .rules-frame p {
+     padding: 14px 4px;
+     border-bottom: 1px solid var(--brand-lavender-deep, #e6defa);
+     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+     font-size: 1rem;
+     font-weight: 400;
+     letter-spacing: 0.00938em;
+     color: #33324a;
+     margin: 0;
+}
+
+.rules-box .rules-frame p:last-child {
+     border-bottom: none;
+}
+
+.help-page .about-box {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: auto;
+     padding: 40px;
+     border: 1px solid var(--brand-lavender-deep, #e6defa);
+     border-radius: 12px;
+     background: #ffffff;
+     box-shadow: 0px 16px 32px rgba(20, 3, 66, 0.06);
+}
+
+.help-page .about-box .about-title {
+     margin-bottom: 18px;
+     font-family: "Playfair Display", Georgia, serif;
+     font-size: 28px;
+     font-weight: 600;
+     color: var(--brand-ink, #140342);
+}
+
+.help-page .about-box p {
+     margin: 0 0 16px 0;
+     font-family: "DM Sans", "Roboto", sans-serif;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 1.7;
+     color: var(--brand-muted, #4f547b);
+}
+
+.help-page .about-box p:last-child {
+     margin-bottom: 0;
+}
+
+.help-page .accordion-menu {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     width: 100%;
+     height: auto;
+}
+
+.help-page .accordion-menu .MuiAccordion-root {
+     border: 1px solid var(--brand-lavender-deep, #e6defa);
+     border-radius: 10px !important;
+     box-shadow: none;
+     overflow: hidden;
+}
+
+.help-page .accordion-menu .MuiAccordion-root:before {
+     display: none;
+}
+
+.help-page .accordion-menu .MuiAccordionSummary-root {
+     transition: background-color 0.2s ease;
+}
+
+.help-page .accordion-menu .MuiAccordionSummary-root:hover {
+     background-color: var(--brand-lavender, #f2eefc);
+}
+
+.help-page .accordion-menu .MuiAccordionSummary-root.Mui-expanded {
+     background-color: var(--brand-lavender, #f2eefc);
+     color: var(--brand-ink, #140342);
+}
+
+.help-page .admin-letter-box {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: auto;
+     padding: 60px;
+     border: 1px solid var(--brand-lavender-deep, #e6defa);
+     border-radius: 12px;
+     background: #ffffff;
+     box-shadow: 0px 16px 32px rgba(20, 3, 66, 0.06);
+}
+
+.help-page .admin-letter-box .admin-letter-container {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: 100%;
+}
+
+.help-page .admin-letter-container .admin-letter-frame {
+     display: flex;
+     flex-direction: column;
+     margin-top: 30px;
+}
+
+.help-page .admin-letter-frame span {
+     font-family: "ABeeZee";
+     font-size: 24px;
+     font-weight: 400;
+     font-style: normal;
+     line-height: 28px;
+     color: #140342;
+}
+
+.help-page .admin-letter-frame p {
+     margin-top: 20px;
+     font-family: "Sedan";
+     font-size: 15px;
+     font-weight: 400;
+     font-style: normal;
+     line-height: 26px;
+     color: #4f547b;
+}
+
+.help-page .admin-letter-container .admin-letter-frame {
+     display: flex;
+     flex-direction: column;
+}
+
+.help-page .admin-letter-frame .admin-input-box {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: auto;
+     margin-top: 30px;
+}
+
+.help-page .admin-letter-frame .admin-input-box label {
+     font-family: "Verdana";
+     font-size: 16px;
+     font-weight: 700;
+     font-style: normal;
+     line-height: 19px;
+     color: #140342;
+}
+
+.help-page .admin-letter-frame .admin-input-box input {
+     box-sizing: border-box;
+     display: flex;
+     width: 100%;
+     height: 60px;
+     padding: 20px;
+     border: 1px solid var(--brand-lavender-deep, #e6defa);
+     border-radius: 8px;
+     margin-top: 14px;
+     font-family: "Verdana";
+     font-size: 15px;
+     font-weight: 400;
+     font-style: normal;
+     line-height: 26px;
+     color: #4f547b;
+     background: #fbfaff;
+     transition: border-color 0.2s ease;
+}
+
+.help-page .admin-letter-frame .admin-input-box input:focus {
+     border-color: var(--brand-rose, #e8b4b8);
+     outline: none;
+}
+
+.help-page .admin-letter-frame .admin-input-box textarea {
+     box-sizing: border-box;
+     display: flex;
+     width: 100%;
+     height: 150px;
+     padding: 20px;
+     border: 1px solid var(--brand-lavender-deep, #e6defa);
+     border-radius: 8px;
+     margin-top: 14px;
+     font-family: "Verdana";
+     font-size: 15px;
+     font-weight: 400;
+     font-style: normal;
+     line-height: 26px;
+     color: #4f547b;
+     background: #fbfaff;
+     transition: border-color 0.2s ease;
+}
+
+.help-page .admin-letter-frame .admin-input-box textarea:focus {
+     border-color: var(--brand-rose, #e8b4b8);
+     outline: none;
+}

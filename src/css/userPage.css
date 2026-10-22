@@ -1,0 +1,438 @@
+.user-page {
+     display: flex;
+     width: 100%;
+     height: auto;
+     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px, #ffffff 260px), url('/public/img/banner.jpg');
+     background-position: center top;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+.user-page .css-heg063-MuiTabs-flexContainer {
+     flex-direction: column;
+}
+
+.user-page .css-mn3ro6-MuiTabs-indicator {
+     width: 0px;
+     height: 0px;
+}
+
+.user-page .css-1ujnqem-MuiTabs-root {
+     width: 100%;
+}
+
+.user-page .my-page-frame {
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     height: auto;
+     padding: 50px 0 50px 0;
+}
+
+.my-page-frame .my-page-left {
+     display: flex;
+     flex-direction: column;
+     width: 70%;
+     height: auto;
+}
+
+.my-page-left .menu-name {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     height: 70px;
+     border-bottom: 1px solid #f8f8ff;
+     font-family: 'Poppins';
+     font-size: 45px;
+     font-weight: 600;
+     font-style: normal;
+     color: #140342;
+}
+
+.my-page-left .menu-content {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: auto;
+     margin-top: 10px;
+}
+
+.my-page-left .write-content {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: auto;
+     margin-top: 10px;
+}
+
+.user-page .menu-content .post-content {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: auto;
+     margin-top: 10px;
+}
+
+.my-page-frame .my-page-right {
+     display: flex;
+     flex-direction: column;
+     width: 30%;
+     height: auto;
+     margin-left: 30px;
+}
+
+.user-page .order-info-box {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     height: auto;
+     padding: 20px;
+     border: 1px solid var(--brand-lavender-deep, #e6defa);
+     border-radius: 16px;
+     background: linear-gradient(180deg, #ffffff 0%, var(--brand-lavender, #f2eefc) 100%);
+     box-shadow: 0px 12px 28px rgba(20, 3, 66, 0.08);
+}
+
+.user-page .order-info-box .settings-btn {
+     position: absolute;
+     top: 6%;
+     right: 19%;
+     cursor: pointer;
+}
+
+.user-page .order-info-box .order-user-img {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.user-page .order-info-box .order-user-img .order-user-avatar {
+     width: 150px;
+     height: 150px;
+     border-radius: 37px;
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.user-page .order-info-box .order-user-icon-box {
+     position: absolute;
+     top: 81%;
+     right: 0;
+     display: flex;
+     width: 37px;
+     height: 37px;
+     padding: 5px;
+     border-radius: 37px;
+     background: rgb(209 209 209 / 33%);
+}
+
+.user-page .order-info-box .order-user-name {
+     margin-top: 10px;
+     font-family: 'Commissioner';
+     font-size: 28px;
+     font-weight: 500;
+     font-style: normal;
+     line-height: 36px;
+     color: #08090d;
+}
+
+.user-page .order-info-box .order-user-prof {
+     font-family: 'Commissioner';
+     font-size: 20px;
+     font-weight: 500;
+     font-style: normal;
+     line-height: 36px;
+     color: #a1a1a1;
+}
+
+.user-page .order-info-box .user-media-box {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 14px;
+     width: 100%;
+     margin-top: 16px;
+}
+
+.user-page .order-info-box .user-media-box svg {
+     box-sizing: content-box;
+     width: 18px;
+     height: 18px;
+     padding: 10px;
+     border-radius: 50%;
+     color: var(--brand-ink, #140342);
+     background: #ffffff;
+     cursor: pointer;
+     transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.user-page .order-info-box .user-media-box svg:hover {
+     background: var(--brand-rose, #e8b4b8);
+     color: #ffffff;
+     transform: translateY(-2px);
+}
+
+.user-page .order-info-box .user-desc {
+     display: flex;
+     justify-content: center;
+     width: 90%;
+     margin-top: 30px;
+     font-family: 'DM Sans';
+     font-size: 16px;
+     font-weight: 400;
+     font-style: normal;
+     line-height: 24px;
+     color: #616164;
+}
+
+.user-page .order-info-box .css-1e3kzd4-MuiButtonBase-root-MuiButton-root {
+     min-width: 90%;
+     height: 44px;
+     margin-top: 15px;
+     font-size: 25px;
+     font-weight: 600;
+     font-style: normal;
+     line-height: 38px;
+     text-transform: capitalize;
+     color: #f8f8ff;
+}
+
+.user-page .menu-box img {
+     width: 25px;
+}
+
+.user-page .menu-box span {
+     margin-left: 30px;
+     font-family: 'Poppins';
+     font-size: 25px;
+     font-weight: 600;
+     font-style: normal;
+     line-height: 38px;
+     color: #000000;
+}
+
+.user-page .settings {
+     display: flex;
+     flex-direction: column;
+     width: 95%;
+     height: auto;
+}
+
+.user-page .settings .input-frame {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 100%;
+     height: auto;
+     margin-top: 24px;
+}
+
+.user-page .settings .short-input {
+     display: flex;
+     flex-direction: column;
+     width: 49%;
+     height: auto;
+}
+
+.user-page .settings .long-input {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: auto;
+}
+
+.user-page .settings .spec-label {
+     font-family: 'Source Serif Pro';
+     font-size: 16px;
+     font-weight: 500;
+     font-style: normal;
+     line-height: 25px;
+     color: var(--brand-ink, #140342);
+}
+
+.user-page .settings .input-icon-wrap {
+     position: relative;
+     display: flex;
+     align-items: center;
+     width: 100%;
+     margin-top: 18px;
+}
+
+.user-page .settings .input-icon-wrap .input-icon {
+     position: absolute;
+     top: 17px;
+     left: 16px;
+     z-index: 1;
+     font-size: 20px;
+     color: var(--brand-rose, #e8b4b8);
+     pointer-events: none;
+}
+
+.user-page .settings .input-icon-wrap .spec-input,
+.user-page .settings .input-icon-wrap .spec-textarea {
+     margin-top: 0;
+     padding-left: 48px;
+}
+
+.user-page .settings .spec-input {
+     position: relative;
+     box-sizing: border-box;
+     width: 100%;
+     height: 54px;
+     padding-left: 20px;
+     border: 1.5px solid transparent;
+     border-radius: 5px;
+     margin-top: 18px;
+     font-family: 'GT Walsheim Pro';
+     font-size: 15px;
+     font-weight: 400;
+     font-style: normal;
+     line-height: 26px;
+     color: #4f547b;
+     background: #f7f7f7;
+     box-shadow: 0px 3px 10px rgba(20, 3, 66, 0.06);
+     transition: border-color 0.2s ease;
+}
+
+.user-page .settings .spec-input:focus {
+     border-color: #140342;
+     outline: none;
+}
+
+.user-page .settings .spec-textarea {
+     position: relative;
+     box-sizing: border-box;
+     width: 100%;
+     height: 200px;
+     padding: 20px;
+     border: 1.5px solid transparent;
+     border-radius: 5px;
+     margin-top: 18px;
+     font-family: 'GT Walsheim Pro';
+     font-size: 15px;
+     font-weight: 400;
+     font-style: normal;
+     line-height: 26px;
+     color: #4f547b;
+     background: #f7f7f7;
+     box-shadow: 0px 3px 10px rgba(20, 3, 66, 0.06);
+     transition: border-color 0.2s ease;
+}
+
+.user-page .settings .spec-textarea:focus {
+     border-color: #140342;
+     outline: none;
+}
+
+.user-page .settings .member-media-frame {
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     box-sizing: border-box;
+     width: 100%;
+     height: auto;
+     padding: 20px;
+     border: 1px solid var(--brand-lavender-deep, #e6defa);
+     border-radius: 14px;
+     margin-top: 25px;
+     background: #ffffff;
+}
+
+.user-page .settings .member-media-frame .mb-image {
+     flex-shrink: 0;
+     width: 116px;
+     height: 116px;
+     border: 3px solid var(--brand-lavender, #f2eefc);
+     border-radius: 50%;
+     object-fit: cover;
+     box-shadow: 0px 6px 16px rgba(20, 3, 66, 0.10);
+}
+
+.user-page .settings .media-change-box {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: auto;
+     height: 100%;
+     margin-left: 22px;
+}
+
+.user-page .settings .media-change-box span {
+     font-family: 'GT Walsheim Pro';
+     font-size: 16px;
+     font-weight: 600;
+     font-style: normal;
+     line-height: 20px;
+     color: var(--brand-ink, #140342);
+}
+
+.user-page .settings .media-change-box p {
+     margin: 6px 0px 16px 0px;
+     font-family: 'GT Walsheim Pro';
+     font-size: 13px;
+     font-weight: 400;
+     font-style: normal;
+     line-height: 18px;
+     color: var(--brand-muted, #4f547b);
+}
+
+.user-page .settings .up-del-box {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: fit-content;
+     height: 42px;
+     padding: 0 20px;
+     border-radius: 999px;
+     background: var(--brand-lavender, #f2eefc);
+     color: var(--brand-ink, #140342);
+     cursor: pointer;
+     transition: background 0.2s ease, transform 0.2s ease, color 0.2s ease;
+}
+
+.user-page .settings .up-del-box:hover {
+     background: var(--brand-rose, #e8b4b8);
+     color: #ffffff;
+     transform: scale(1.03);
+}
+
+.user-page .settings .up-del-box button {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     gap: 8px;
+     height: 42px;
+     min-width: unset;
+     padding: 0;
+     border-radius: 999px;
+     font-family: 'GT Walsheim Pro';
+     font-size: 13px;
+     font-weight: 600;
+     text-transform: none;
+     color: inherit;
+     background: transparent;
+}
+
+.user-page .settings .up-del-box input {
+     position: absolute;
+     overflow: hidden;
+     clip: rect(0, 0, 0, 0);
+     width: 20px;
+     height: 16px;
+     padding: 0;
+     border: 0;
+     margin: -1px;
+     background: red;
+}
+
+.user-page .settings .save-box {
+     display: flex;
+     justify-content: flex-end;
+     margin-top: 25px;
+}

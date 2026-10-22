@@ -1,0 +1,35 @@
+:root {
+  --brand-ink: #140342;
+  --brand-rose: #e8b4b8;
+  --brand-rose-soft: #f7e9ea;
+  --brand-lavender: #f2eefc;
+  --brand-lavender-deep: #e6defa;
+  --brand-dark: #1a1a1a;
+  --brand-bg: #f8f8ff;
+  --brand-muted: #4f547b;
+}
+
+.cosmetics-swal-popup {
+  border-radius: 16px !important;
+  box-shadow: 0 20px 45px rgba(20, 3, 66, 0.18) !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.cosmetics-swal-title {
+  color: var(--brand-ink) !important;
+  font-size: 18px !important;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

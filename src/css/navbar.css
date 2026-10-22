@@ -1,0 +1,306 @@
+/* Home Navbar */
+
+.home-navbar {
+  display: flex;
+  width: 100%;
+  height: 773px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.28) 160px, rgba(0, 0, 0, 0) 240px),
+    linear-gradient(to right,
+      rgba(10, 10, 10, 0.45) 0%,
+      rgba(10, 10, 10, 0.2) 45%,
+      rgba(10, 10, 10, 0) 100%),
+    url('/public/img/banner.jpg');
+  background-position: center top;
+  background-size: cover;
+}
+
+.home-navbar .navbar-container {
+  height: 642px;
+  margin-top: 55px;
+}
+
+.home-navbar .navbar-container .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.home-navbar .navbar-container .menu .brand-logo-text {
+  font-family: "Roboto serif";
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #f8f8ff;
+}
+
+.home-navbar .navbar-container .menu .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 700px;
+}
+
+.home-navbar .navbar-container .menu .links .login-button {
+  color: #f8f8ff;
+  background-color: #1a1a1a;
+}
+
+.home-navbar .navbar-container .menu .links .login-button:hover {
+  background-color: #333333;
+}
+
+.home-navbar .navbar-container .menu .links .signup-nav-link {
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #f8f8ff;
+  cursor: pointer;
+}
+
+.home-navbar .navbar-container .menu .links .signup-nav-link:hover {
+  color: #e8b4b8;
+}
+
+.home-navbar .navbar-container .menu .user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.home-navbar a {
+  text-decoration: none;
+}
+
+.home-navbar .hover-line a {
+  z-index: 100;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #f8f8ff;
+}
+
+.home-navbar .underline {
+  content: "";
+  display: block;
+  border-bottom: solid 2px #e8b4b8;
+}
+
+.home-navbar .hover-line:after {
+  content: "";
+  display: block;
+  border-bottom: solid 2px #e8b4b8;
+  transition: transform 250ms ease-in-out;
+  transform: scaleX(0);
+}
+
+.home-navbar .hover-line:hover:after {
+  transform: scaleX(1);
+}
+
+.home-navbar div.hover-line:after {
+  transform-origin: 0% 50%;
+}
+
+/* Hero content */
+
+.home-navbar .navbar-container .header-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 462px;
+  margin-top: 142px;
+}
+
+.home-navbar .navbar-container .header-frame .detail {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+}
+
+.home-navbar .navbar-container .header-frame .detail .eyebrow {
+  margin-bottom: 12px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #d5d5d5;
+}
+
+.home-navbar .navbar-container .header-frame .detail .head-main-txt {
+  width: 510px;
+  font-family: "Roboto serif";
+  font-size: 50px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: -0.75px;
+  color: #f8f8ff;
+}
+
+.home-navbar .navbar-container .header-frame .detail .wel-txt {
+  width: 510px;
+  margin-top: 24px;
+  font-family: "Roboto serif";
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: -0.3px;
+  color: #e8b4b8;
+}
+
+.home-navbar .navbar-container .detail .signup {
+  margin-top: 48px;
+}
+
+.home-navbar .navbar-container .detail .signup .signup-button {
+  width: 210px;
+  height: 60px;
+  border-radius: 4px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  color: #ffffff;
+  background: #1a1a1a;
+}
+
+.home-navbar .navbar-container .detail .signup .signup-button:hover {
+  background: #333333;
+}
+
+/* Reassurance strip */
+
+.home-navbar .navbar-container .reassurance-strip {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.home-navbar .navbar-container .reassurance-strip .item {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  color: #e8e8e8;
+  opacity: 0.85;
+}
+
+/* Other navbar */
+
+.other-navbar {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2b2b2b 50%, #1a1a1a 100%);
+  background-size: cover;
+}
+
+.other-navbar .navbar-container {
+  margin-top: 55px;
+}
+
+.other-navbar .navbar-container .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.other-navbar .navbar-container .menu .brand-logo {
+  width: 125px;
+  height: 30px;
+}
+
+.other-navbar .navbar-container .menu .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 700px;
+}
+
+.other-navbar .navbar-container .menu .links .login-button {
+  color: #f8f8ff;
+  background-color: #1a1a1a;
+}
+
+.other-navbar .navbar-container .menu .links .login-button:hover {
+  background-color: #333333;
+}
+
+.other-navbar .navbar-container .menu .user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 24px;
+}
+
+.other-navbar a {
+  text-decoration: none;
+}
+
+.other-navbar .hover-line a {
+  z-index: 100;
+  color: #f8f8ff;
+}
+
+.other-navbar .underline {
+  content: "";
+  display: block;
+  border-bottom: solid 2px #e8b4b8;
+}
+
+.other-navbar .hover-line:after {
+  content: "";
+  display: block;
+  border-bottom: solid 2px #e8b4b8;
+  transition: transform 250ms ease-in-out;
+  transform: scaleX(0);
+}
+
+.other-navbar .hover-line:hover:after {
+  transform: scaleX(1);
+}
+
+.other-navbar div.hover-line:after {
+  transform-origin: 0% 50%;
+}
+
+.other-navbar {
+  height: 110px;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url('/public/img/banner.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.other-navbar .navbar-container .menu .brand-logo-text {
+  font-family: "Roboto serif";
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #f8f8ff;
+}
+
+.other-navbar .navbar-container .menu .links .signup-nav-link {
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #f8f8ff;
+  cursor: pointer;
+}
+
+.other-navbar .navbar-container .menu .links .signup-nav-link:hover {
+  color: #e8b4b8;
+}
